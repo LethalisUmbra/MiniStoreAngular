@@ -1,0 +1,27 @@
+.container_table {
+    width: 90%;
+    margin: 0 4%;
+
+    .table {
+        font-size: 1.2rem;
+
+        th {
+            background-color: #673ab7;
+            color: #fff;
+            padding: .5rem 1rem;
+        }
+
+        td {
+            background-color: #eee;
+            padding: .5rem 1rem;
+        }
+    }
+
+    .container_total {
+        margin-top: 1rem;
+        .total {
+            color: #000;
+            font-size: 1.2rem;
+        }
+    }
+}

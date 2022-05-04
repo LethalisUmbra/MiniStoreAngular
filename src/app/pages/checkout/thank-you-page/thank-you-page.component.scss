@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 10%;
+    height: 80%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 96);
+    padding: 5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 50px gold;
+    color: white;
+    text-shadow: 0 0 5px #000;
+
+    .title {
+        font-size: 5rem;
+    }
+
+    .content {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,7 @@
+<mat-toolbar color="primary">
+    <a [routerLink]="['/']">
+        <span>UmbraStore</span>
+    </a>
+    <span class="spacer"></span>
+    <app-cart class="cart" (click)="goToCheckout()"></app-cart>
+</mat-toolbar>
